@@ -1,15 +1,15 @@
 /* Creación de variables a  utilizar */
 :root {
-    --primary-color: #3B82F6;
-    --secondary-color: #38BDF8;
-    --text-color: #E2E8F0;;
-    --background-color: #0F172A;
+    --primary-color: #914413;
+    --secondary-color: #2E4D2E;
+    --text-color: #3E3E3E;;
+    --background-color: #F0F3EC;
     --light-gray: #a44c4c;
 }
 
 
 body {
-    font-family: "Orbitron";
+    font-family: "Dancing Script", cursive;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -71,7 +71,7 @@ body {
 }
 
 .accordion-nav .nav-link {
-    color: rgb(10, 70, 45); /* Cambiar color de los enlaces dentro del acordeón */
+    color: white; /* Cambiar color de los enlaces dentro del acordeón */
     padding: 0.5rem 0;
     display: block;
 }
@@ -101,7 +101,7 @@ body {
 /*Color y tamaño del area para la foto de perfil y resumen*/
 .profile-section {
     padding-top: 100px; /* Espacio para el header fijo */
-    background-color: #0F172A;
+    background-color: #F0F3EC;
 }
 
 /*Tamaño del titulo para estudios y experiencia*/
@@ -124,25 +124,25 @@ body {
 
 /*Dimensiones y aspectos de la foto de perfil*/
 .profile-photo {
-    width: 400px;
-    height: 400px;
-    border-radius: 45%;
+    width: 350px;
+    height: 350px;
+    border-radius: 35%;
     object-fit: cover;
-    border: 15px solid #3B82F6;
+    border: 12px solid #914413;
     margin-bottom: 1rem;
 }
 
 /*Tamaños y color para el nombre*/
 .profile-name {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin: 0.5rem 0;
-    color: #38BDF8;
+    color: #5e9e30;
 }
 
 .profile-summary {
     max-width: 1000px;
     margin: 0 auto 2.5rem;
-    color: #E2E8F0;
+    color: #3E3E3E;
 }
 
 .list, .list-inline {
@@ -153,17 +153,17 @@ body {
 /*Sección para cambiar colores de fondo, tamaño de letra y alineación del texto o contenedores
 del area de Estudios realizados y experiencia laboral*/
 .list li {
-    background-color: #1E293B;
-    border-left: 10px solid var(--primary-color);
-    padding: 2rem;
+    background-color: #D6E3D1;
+    border-left: 5px solid var(--primary-color);
+    padding: 1rem;
     margin-bottom: 1rem;
-    box-shadow: 0 2px 5px rgb(0, 0, 0);
+    box-shadow: 0 2px 5px rgb(102, 155, 86);
     text-align: center;
 }
 
 .list-inline li {
     display: inline-block;
-    background-color: #1E293B;
+    background-color: #D6E3D1;
     padding: 0.5rem 1rem;
     border-radius: 20px;
     margin: 0.5rem;
@@ -202,7 +202,7 @@ del area de Estudios realizados y experiencia laboral*/
 
 /*Efecto de otro color al pasar el mouse por el botón*/
 .linktree-link:hover {
-    background-color: #a098ec;
+    background-color: #eee88f;
 }
 
 /* Contact Form */
@@ -219,13 +219,13 @@ del area de Estudios realizados y experiencia laboral*/
 .contact-form textarea {
     padding: 1rem;
     margin-bottom: 1rem;
-    border: 1px solid #000000;
+    border: 1px solid #b91a1a;
     border-radius: 5px;
 }
 
 /*Sección para cambiar el color del botón de enviar mensaje y el color de la letra */
 .submit-button {
-    background-color: rgb(31, 73, 114);
+    background-color: rgb(161, 241, 192);
     color: white;
     border: none;
     padding: 1rem;
@@ -237,7 +237,7 @@ del area de Estudios realizados y experiencia laboral*/
 
 /*Para cambiar el efecto de color al pasar el mouse por el boton de "Enviar Mensaje"*/
 .submit-button:hover {
-    background-color: #9394e8;
+    background-color: #fafa6d;
 }
 
 /* Footer */
